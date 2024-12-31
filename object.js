@@ -6,7 +6,5 @@ const student = {
 }
 // console.log(student['subject'][2])
 
-student.age = 25;
-student['subject'] = 'biology'
-console.log(student)
-
+const property = Object.keys(student)
+console.log(property)
